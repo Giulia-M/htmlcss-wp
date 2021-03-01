@@ -12,7 +12,7 @@ main>section {
     margin-bottom: 10px;
 }
 
- .img-logo >img {
+.img-logo >img {
     width: 20%;
     border-right: 1px solid rgb(191, 191, 191);
     padding-right: 25px;
@@ -38,27 +38,34 @@ li a:not(.primo-link) {
     padding: 5px;
 }
 .section-1 {
-    padding: 200px;
-   
+    padding: 400px 40% 50px 50px;
+    background-image: url(img/banner.jpg);
+    background-position: center; 
 }
-.section-2 {
+/* p.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   
+} */
+/* .section-2 {
+   margin-top:20px;
    padding-bottom: 15px;
-}
-section>div.clearfix::after{
+} */
+.section-2>div.clearfix::after{
     display: table;
     content: "";
     clear: both;
 } 
-.titolo-articolo {
-    height: 70px;
-}
+
 
 .main-bot>aside, .main-bot>article {
     float: left;
-    height: 450px;
+  
 }
-
+aside>img, article>img {
+    width: 100%;
+}
 .content-aside-left {
     
     margin-top: 15px; 
@@ -81,26 +88,24 @@ section>div.clearfix::after{
    
     margin-top: 15px;
     width:60%;
-    
-   
 }
+.main-img {
+    height: 200px;
+    background-position: center;
+}
+#img-2-idea {
+    background-image: url(img/img-2.jpg);
+}
+#img-1-pianta {
+    background-image: url(img/img-1.jpg);
 
+}
+#banner-2-caffe{
+    background-image: url(img/banner-2.jpg);
+}
 footer {
-    height: 100px;
+    text-align: center;
 }
-/* impostazione colori dei blocchi  */
-#color-pink {
-    background-color:#e479e6;
-}
-#color-yellow {
-    background-color:#e1d77a;
-}
-#color-royalblue {
-    background-color: #0088ff;
-}
-.color-skyblue {
-    background-color: #abcfe7;
-}
-#color-viola {
-    background-color: #8a00fb;
+footer span {
+    color: red;    
 }
