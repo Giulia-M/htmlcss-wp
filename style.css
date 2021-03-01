@@ -12,10 +12,31 @@ main>section {
     margin-bottom: 10px;
 }
 
- header >img {
+ .img-logo >img {
     width: 20%;
+    border-right: 1px solid rgb(191, 191, 191);
+    padding-right: 25px;
  }
+.nav-bar {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+nav ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+  
+}
 
+ li a {
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+   
+ }
+li a:not(.primo-link) {
+    padding: 5px;
+}
 .section-1 {
     padding: 200px;
    
