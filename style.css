@@ -9,13 +9,12 @@ body > * {
 }
 body>*,
 main>section {
-    margin-top: 10px;
     margin-bottom: 10px;
 }
-header {
-    padding: 40px;
-}
 
+ header >img {
+    width: 20%;
+ }
 
 .section-1 {
     padding: 200px;
