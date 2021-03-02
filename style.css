@@ -98,6 +98,7 @@ aside>img, article>img {
 #banner-2-caffe{
     background-image: url(img/banner-2.jpg);
     background-repeat: no-repeat;
+    background-position: 50% 40%;
 }
 footer {
     text-align: center;
