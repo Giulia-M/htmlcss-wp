@@ -9,7 +9,7 @@ body > * {
 }
 body>*,
 main>section {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .img-logo >img {
@@ -48,10 +48,7 @@ li a:not(.primo-link) {
     white-space: nowrap;
   
 } */
-/* .section-2 {
-   margin-top:20px;
-   padding-bottom: 15px;
-} */
+
 .section-2>div.clearfix::after{
     display: table;
     content: "";
@@ -67,25 +64,19 @@ aside>img, article>img {
     width: 100%;
 }
 .content-aside-left {
-    
     margin-top: 15px; 
     width:19%;
-
-   
     margin-right: 1%; 
 }
 
 
 .content-aside-right {
-   
     margin-top: 15px;
     width:19%;
-   
     margin-left: 1%;
 } 
 
 .content-centre {
-   
     margin-top: 15px;
     width:60%;
 }
@@ -94,18 +85,27 @@ aside>img, article>img {
     background-position: center;
 }
 #img-2-idea {
-    background-image: url(img/img-2.jpg);
+    background-image: url(img/img-3.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #img-1-pianta {
     background-image: url(img/img-1.jpg);
+    background-repeat: no-repeat;
 
 }
 #banner-2-caffe{
     background-image: url(img/banner-2.jpg);
+    background-repeat: no-repeat;
 }
 footer {
     text-align: center;
 }
 footer span {
     color: red;    
+}
+h4, p {
+    color: grey;
+    margin: 15px;
 }
